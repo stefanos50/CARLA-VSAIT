@@ -47,7 +47,7 @@ def export_to_onnx(model, export_path="model.onnx", input_size=(1, 3, 540, 960),
 export_to_onnx(solver)
 ```
 
-## Translation Results
+## Translation Results (CARLA2Cityscapes)
 
 ![FinalColor-115504](https://github.com/user-attachments/assets/e21b58cc-2a49-4d20-a110-989b2620f876)
 
