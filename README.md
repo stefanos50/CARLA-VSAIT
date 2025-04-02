@@ -20,7 +20,7 @@ python carla_vsait.py
 
 ## Training
 
-In order to train your own models download the official [VSAIT code](https://github.com/facebookresearch/vsait/tree/main) and follow the provided instruction. To export the ONNX model add the following blocks of code in the provided test.py script. The dataset used for training VSAIT can be found [here](https://www.kaggle.com/datasets/stefanospasios/carla2real-enhancing-the-photorealism-of-carla).
+In order to train your own models download the official [VSAIT code](https://github.com/facebookresearch/vsait/tree/main) and follow the provided instructions. To export the ONNX model add the following blocks of code in the provided test.py script. The dataset used for training VSAIT can be found [here](https://www.kaggle.com/datasets/stefanospasios/carla2real-enhancing-the-photorealism-of-carla).
 ```
 import torch
 def export_to_onnx(model, export_path="model.onnx", input_size=(1, 3, 540, 960), device="cuda"):
